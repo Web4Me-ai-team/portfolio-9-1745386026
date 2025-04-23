@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tessa Kong's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="overlay"></div>
+    
+    <header>
+        <div class="terminal-nav">
+            <div class="terminal-prompt">
+                <span class="terminal-user">my@portfolio</span>:<span class="terminal-path">~/resume</span>$ <span class="terminal-cursor">_</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#education">education</a></li>
+                    <li><a href="#experience">experience</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="glitch-wrapper">
+                    <h1 class="glitch" data-text="TESSA KONG">TESSA KONG</h1>
+                </div>
+                <h2 class="subtitle">DATA SCIENTIST <span class="accent">|</span> MACHINE LEARNING ENGINEER</h2>
+                <div class="hero-description">
+                    <!-- do not change below line -->
+                    <p>Exploring <span class="highlight">complex problems</span> through <span class="highlight">innovative research</span></p>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/yiting-kong" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:job.tessakong@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> About Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Tessa Kong is a skilled data scientist and machine learning engineer with a strong foundation in health informatics and big data technology. She has demonstrated expertise in developing machine learning models, optimizing cloud infrastructures, and implementing deep learning techniques to improve model performance and data processing efficiency. Her experience includes internships at TapTap and Stevens Institute of Technology, where she contributed to significant performance improvements in ad bidding strategies and EEG signal processing.</p>
+                        
+                        <div class="terminal-box">
+                            <div class="terminal-header">
+                                <span class="terminal-dot red"></span>
+                                <span class="terminal-dot yellow"></span>
+                                <span class="terminal-dot green"></span>
+                                <span class="terminal-title">tessa@research:~</span>
+                            </div>
+                            <div class="terminal-body">
+                                <p><span class="command">$ cat contact_info.txt</span></p>
+                                <p>Email: job.tessakong@gmail.com</p>
+                                <p>Phone: +1 (203) 706 5973</p>
+                                <p><span class="command">$</span><span class="terminal-cursor">_</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Education</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="education-container" id="education-container">
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">M.S. in Health Informatics, Engineering Track</div>
+                            <div class="item-date">May 2025 (Expected)</div>
+                        </div>
+                        <div class="item-subtitle">Yale University</div>
+                    </div>
+                    
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">B.E. in Data Science and Big Data Technology</div>
+                            <div class="item-date">June 2023</div>
+                        </div>
+                        <div class="item-subtitle">Xi’an Jiaotong-Liverpool University (XJTLU)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Work Experience</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="experience-container" id="experience-container">
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Machine Learning Intern</div>
+                            <div class="item-date">May 2024 – August 2024</div>
+                        </div>
+                        <div class="item-subtitle">TapTap</div>
+                        <ul class="item-description">
+                            <li>Developed ESMM model to estimate CVR, with feature engineering of 68 new features addressing inference latency.</li>
+                            <li>Collaborated with senior engineers to deploy model, launching 90% traffic going live in 2 weeks, resulting in a 30% reduction in bias and 24.7% in over-reception ratio, a 3.5% increase in CVR and 4.2% in ARPU.</li>
+                            <li>Participated in the development of a PLTV model, defined labels based on partial observation window, processed samples and optimized ZILN loss, achieving ROI increase of 42.3%.</li>
+                            <li>Routinely adjusted bidding strategies to manage traffic flow, mitigated abnormal channel activity, developed functions.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Research Intern</div>
+                            <div class="item-date">June 2022 – September 2022</div>
+                        </div>
+                        <div class="item-subtitle">Stevens Institute of Technology</div>
+                        <ul class="item-description">
+                            <li>Orchestrated a Python pipeline using MNE-Python for EEG preprocessing, incorporating high-frequency auto-filtering and multitaper spectral estimation, achieving a 23% noise reduction.</li>
+                            <li>Implemented a baseline experiment by employing FieldTrip and Signal Processing to visualize and extract three types of HFO (Ripples, Fast-Ripples, and Spikes) using MATLAB.</li>
+                            <li>Transformed 1D EEG signal vector into 2D by integrating channel position information and developed a CNN integrated with depthwise-convolution Transformer, achieving a sensitivity increase of 9%.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Projects</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="projects-grid" id="projects-container">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Deep Learning based Recommender System</h3>
+                        <p class="project-duration">October 2022 – January 2023</p>
+                        <p class="project-description">Developed a B/S book recommendation system featuring recommendation, search, and user authentication capabilities.</p>
+                        <div class="project-tech">
+                            <span>TensorFlow</span>
+                            <span>Flask</span>
+                            <span>MySQL</span>
+                            <span>Redis</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li>Engineered NCF model for item recall and DIEN model for ranking to improve CTR.</li>
+                                <li>Leveraged Flask to develop the system back-end, implemented 15+ RESTful APIs.</li>
+                                <li>Utilized MySQL as primary database, employed index and partition and implemented full-text search capabilities, used Redis as a caching layer to optimize loading efficiency.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Scalable Cloud Infra for ML Classification</h3>
+                        <p class="project-duration">March 2023 – May 2023</p>
+                        <p class="project-description">Orchestrated a cluster with 12 vCPUs on ECS, proficiently configuring a scalable cloud infrastructure.</p>
+                        <div class="project-tech">
+                            <span>ECS</span>
+                            <span>OSS</span>
+                            <span>Spark MLlib</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li>Utilized the OSS for cloud-based storage, showcasing expertise in cloud storage solutions and data management.</li>
+                                <li>Devised and optimized Spark MLlib classifiers for a 10-feature dataset comprising over 1,000,000 samples, achieving an accuracy of 92% and completing the processing within 2 minutes.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Mini-TikTok</h3>
+                        <p class="project-duration">April 2022 – July 2022</p>
+                        <p class="project-description">Developed a Mini-TikTok application using Golang, created 13+ server-side APIs with a three-tier architecture and employed the dependency injection pattern.</p>
+                        <div class="project-tech">
+                            <span>Golang</span>
+                            <span>Gin</span>
+                            <span>GORM</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li>Utilized GORM with MySQL relational database ensure efficient operations and Gin for HTTP services.</li>
+                                <li>Strengthened security with JWT authentication and MD5 password encryption.</li>
+                                <li>Implemented S3 for video storage and slice upload functionality.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Kaggle(Top1%)</h3>
+                        <p class="project-duration">February 2022 – May 2022</p>
+                        <p class="project-description">Designed a ranking model based on SAR, achieving the final score of 0.02823(MAP); ranked 62/2954 and won the silver medal.</p>
+                        <div class="project-tech">
+                            <span>NumPy</span>
+                            <span>Pandas</span>
+                            <span>sklearn</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Technical Skills</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-java"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>C/C++</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Machine Learning</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>PyTorch</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>TensorFlow</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>scikit-learn</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>PaddlePaddle</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Tools & Technologies</h3>
+                        <div class="skill-items" id="technical-skills-container">
+                            <div class="skill-item">
+                                <i class="fab fa-docker"></i>
+                                <span>Docker</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-dharmachakra"></i>
+                                <span>Kubernetes</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-aws"></i>
+                                <span>AWS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-google"></i>
+                                <span>Google Cloud</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="awards">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Honors & Awards</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="awards-container" id="awards-container">
+                    <div class="award-item">
+                        <div class="item-header">
+                            <div class="item-title">Kaggle Silver Medal</div>
+                            <div class="item-date">2022</div>
+                        </div>
+                        <div class="item-subtitle">Kaggle</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Contact Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <p>I'm always open to research collaborations and interesting projects. Feel free to reach out!</p>
+                    </div>
+                    <div class="contact-methods">
+                        <a href="mailto:job.tessakong@gmail.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>job.tessakong@gmail.com</span>
+                        </a>
+                        <a href="https://linkedin.com/in/yiting-kong" target="_blank" class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/yiting-kong</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>© 2025 Tessa Kong | Data Scientist & Machine Learning Engineer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="mailto:job.tessakong@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
